@@ -19,22 +19,45 @@ article, div, h1, h2, h3, p, section {
 
 header {
     width: 100%;
-    padding: 2em 0;
+    padding: 1.5em 0;
     background-color: #1a365d;
     color: #ffffff;
+}
+
+.header-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;;
+}
+
+.header-logo {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 75px;
+    width: auto;
+}
+
+.header-text {
+    width: 100%;
     text-align: center;
+    padding: 0 100px;
 }
 
 header h2 {
     font-size: 2.5em;
     letter-spacing: 2px;
     margin-bottom: 0.1em;
+    line-height: 1.2;
 }
 
 header h3 {
     font-size: 1.15em;
     font-style: italic;
     color: #cbd5e0;
+    margin-top: 5px;
 }
 
 #nav_menu ul {
