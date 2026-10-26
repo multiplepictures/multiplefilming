@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Multiple Pictures</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="mp_logo.jpg" alt="Multiple Pictures Logo" class="header-logo">
+            <div class="header-text">
+                <h1>MULTIPLE PICTURES</h1>
+                <h2>Production Company</h2>
+            </div>
+        </div>
+    </header>
+
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="services.html">Services</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="form-container">
+            <h2>Production Inquiry Form</h2>
+            <form action="#" method="post">
+                <label for="client_name">Full Name:</label>
+                <input type="text" id="client_name" name="client_name" placeholder="Your name.." required>
+
+                <label for="client_email">Email Address:</label>
+                <input type="email" id="client_email" name="client_email" placeholder="Your email.." required>
+
+                <label for="service_type">Requested Service:</label>
+                <select id="service_type" name="service_type">
+                    <option value="editing">Digital Video Editing</option>
+                    <option value="recording">Digital Video Recording</option>
+                    <option value="sound">Digital Sound Design</option>
+                </select>
+
+                <label for="project_date">Target Production Date:</label>
+                <input type="date" id="project_date" name="project_date">
+
+                <label for="project_details">Project Brief / Details:</label>
+                <textarea id="project_details" name="project_details" placeholder="Describe your production needs.."></textarea>
+
+                <div class="form-buttons">
+                    <input type="submit" value="Submit Request">
+                    <input type="reset" value="Reset Form">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Contact Email &ndash; <a href="mailto:multiplefilming@gmail.com">multiplefilming@gmail.com</a></p>
+    </footer>
+</body>
+</html>
