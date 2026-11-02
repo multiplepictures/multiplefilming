@@ -7,9 +7,8 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100%;
-    width: 96%;
-    max-width: 75rem;
-    margin: 1.25em auto;
+    width: 100%;
+    margin: 0;
     background-color: #ffffff;
     color: #333333;
 }
